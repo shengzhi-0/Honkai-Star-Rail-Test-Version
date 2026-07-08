@@ -596,7 +596,7 @@ effect = {
         hidden_effect = {
             from = {
                 country_event = {
-                    id = hsr_ui.39
+                    id = hsr_ui.38
                 }
             }
         }
