@@ -573,30 +573,127 @@ inline_script = {
     name = jingyuan
     page_value = 3
 }
-inline_script = {
-    script = button_effect/hsr_leader_null
-    name = misha
-    page_value = 4
+hsr_leader_misha_effect = {
+    potential = {
+        from = {
+            check_variable = {
+                which = hsr_star_leader_change
+                value = 4
+            }
+        }
+    }
+    allow = {
+	From = {
+		any_owned_leader = {
+			NOR = {
+				has_leader_flag = misha
+			}
+		}
+	}
+    }
+effect = {
+        custom_tooltip = hsr_ui.38.a.desc
+        hidden_effect = {
+            from = {
+                country_event = {
+                    id = hsr_ui.39
+                }
+            }
+        }
+    }
 }
-inline_script = {
-    script = button_effect/hsr_leader_null
-    name = heitiane
-    page_value = 4
+
+hsr_leader_heitiane_effect = {
+    potential = {
+        from = {
+            check_variable = {
+                which = hsr_star_leader_change
+                value = 4
+            }
+        }
+    }
+    allow = {
+
+    }
+effect = {
+        custom_tooltip = hsr_ui.39.a.desc
+        hidden_effect = {
+            from = {
+                country_event = {
+                    id = hsr_ui.39
+                }
+            }
+        }
+    }
 }
-inline_script = {
-    script = button_effect/hsr_leader_null
-    name = huahuo
-    page_value = 4
+hsr_leader_huahuo_effect = {
+    potential = {
+        from = {
+            check_variable = {
+                which = hsr_star_leader_change
+                value = 4
+            }
+        }
+    }
+    allow = {
+
+    }
+effect = {
+        custom_tooltip = hsr_ui.40.a.desc
+        hidden_effect = {
+            from = {
+                country_event = {
+                    id = hsr_ui.40
+                }
+            }
+        }
+    }
 }
-inline_script = {
-    script = button_effect/hsr_leader_null
-    name = jialahe
-    page_value = 4
+hsr_leader_jialahe_effect = {
+    potential = {
+        from = {
+            check_variable = {
+                which = hsr_star_leader_change
+                value = 4
+            }
+        }
+    }
+    allow = {
+
+    }
+effect = {
+        custom_tooltip = hsr_ui.41.a.desc
+        hidden_effect = {
+            from = {
+                country_event = {
+                    id = hsr_ui.41
+                }
+            }
+        }
+    }
 }
-inline_script = {
-    script = button_effect/hsr_leader_null
-    name = zhigengniao
-    page_value = 4
+hsr_leader_zhigengniao_effect = {
+    potential = {
+        from = {
+            check_variable = {
+                which = hsr_star_leader_change
+                value = 4
+            }
+        }
+    }
+    allow = {
+
+    }
+effect = {
+        custom_tooltip = hsr_ui.42.a.desc
+        hidden_effect = {
+            from = {
+                country_event = {
+                    id = hsr_ui.42
+                }
+            }
+        }
+    }
 }
 inline_script = {
     script = button_effect/hsr_leader_null
@@ -653,30 +750,120 @@ inline_script = {
     name = xilian
     page_value = 5
 }
-inline_script = {
-    script = button_effect/hsr_leader_null
-    name = sanyueqi
-    page_value = 6
+hsr_leader_sanyueqi_effect = {
+    potential = {
+        from = {
+            check_variable = {
+                which = hsr_star_leader_change
+                value = 6
+            }
+        }
+    }
+    allow = {
+
+    }
+effect = {
+        custom_tooltip = hsr_ui.54.a.desc
+        hidden_effect = {
+            from = {
+                country_event = {
+                    id = hsr_ui.54
+                }
+            }
+        }
+    }
 }
-inline_script = {
-    script = button_effect/hsr_leader_null
-    name = danheng
-    page_value = 6
+hsr_leader_danheng_effect = {
+    potential = {
+        from = {
+            check_variable = {
+                which = hsr_star_leader_change
+                value = 6
+            }
+        }
+    }
+    allow = {
+
+    }
+effect = {
+        custom_tooltip = hsr_ui.55.a.desc
+        hidden_effect = {
+            from = {
+                country_event = {
+                    id = hsr_ui.55
+                }
+            }
+        }
+    }
 }
-inline_script = {
-    script = button_effect/hsr_leader_null
-    name = jizi
-    page_value = 6
+hsr_leader_jizi_effect = {
+    potential = {
+        from = {
+            check_variable = {
+                which = hsr_star_leader_change
+                value = 6
+            }
+        }
+    }
+    allow = {
+
+    }
+effect = {
+        custom_tooltip = hsr_ui.56.a.desc
+        hidden_effect = {
+            from = {
+                country_event = {
+                    id = hsr_ui.56
+                }
+            }
+        }
+    }
 }
-inline_script = {
-    script = button_effect/hsr_leader_null
-    name = waerte
-    page_value = 6
+hsr_leader_waerte_effect = {
+    potential = {
+        from = {
+            check_variable = {
+                which = hsr_star_leader_change
+                value = 6
+            }
+        }
+    }
+    allow = {
+
+    }
+effect = {
+        custom_tooltip = hsr_ui.57.a.desc
+        hidden_effect = {
+            from = {
+                country_event = {
+                    id = hsr_ui.57
+                }
+            }
+        }
+    }
 }
-inline_script = {
-    script = button_effect/hsr_leader_null
-    name = kaituozhe
-    page_value = 6
+hsr_leader_kaituozhe_effect = {
+    potential = {
+        from = {
+            check_variable = {
+                which = hsr_star_leader_change
+                value = 6
+            }
+        }
+    }
+    allow = {
+
+    }
+effect = {
+        custom_tooltip = hsr_ui.58.a.desc
+        hidden_effect = {
+            from = {
+                country_event = {
+                    id = hsr_ui.58
+                }
+            }
+        }
+    }
 }
 inline_script = {
     script = button_effect/hsr_leader_null
