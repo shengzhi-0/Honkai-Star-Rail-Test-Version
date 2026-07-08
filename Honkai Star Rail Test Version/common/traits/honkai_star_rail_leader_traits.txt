@@ -2498,6 +2498,9 @@ leader_kaituozhe_t5 = {
     }
     councilor_modifier = {
 		empire_size_pops_mult = -0.3
+		empire_size_penalty_mult = -0.15
+		planet_buildings_cost_mult = -0.20
+		pop_bonus_workforce_mult = 0.4
     }
     leader_class = { official }
     initial = no
